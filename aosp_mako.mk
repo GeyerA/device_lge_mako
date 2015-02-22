@@ -18,4 +18,8 @@ $(call inherit-product, device/lge/mako/full_mako.mk)
 PRODUCT_NAME := aosp_mako
 
 PRODUCT_PACKAGES += \
+    DSPManager \
+    audio_effects.conf \
+    libcyanogen-dsp \
+    Eleven \
     Launcher3
